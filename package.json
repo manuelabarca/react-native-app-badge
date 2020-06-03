@@ -1,7 +1,7 @@
 {
   "name": "react-native-app-badge",
   "description": "Badge for the shortcut icon in your React Native Android Apps",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "index.js",
   "license": "Niteco",
   "scripts": {
@@ -23,5 +23,7 @@
   "peerDependencies": {
     "react-native": ">=0.50.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@react-native-community/push-notification-ios": "^1.2.0"
+  }
 }
