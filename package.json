@@ -1,24 +1,24 @@
 {
-  "name": "react-native-badge-niteco",
+  "name": "react-native-app-badge",
   "description": "Badge for the shortcut icon in your React Native Android Apps",
   "version": "0.1.0-beta.2",
   "main": "index.js",
-  "license": "MIT",
+  "license": "Niteco",
   "scripts": {
     "test": "echo No test!"
   },
   "author": {
-    "name": "aMarCruz",
+    "name": "Hoang Nguyen",
     "email": "hoang.nguyen2@niteco.se",
     "url": "https://github.com/hoang-nguyen2-niteco"
   },
-  "homepage": "https://github.com/hoang-nguyen2-niteco/react-native-shortcut-badge",
+  "homepage": "https://github.com/hoang-nguyen2-niteco/react-native-app-badge",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hoang-nguyen2-niteco/react-native-shortcut-badge.git"
+    "url": "git+https://github.com/hoang-nguyen2-niteco/react-native-app-badge.git"
   },
   "bugs": {
-    "url": "https://github.com/hoang-nguyen2-niteco/react-native-shortcut-badge/issues"
+    "url": "https://github.com/hoang-nguyen2-niteco/react-native-app-badge/issues"
   },
   "peerDependencies": {
     "react-native": ">=0.50.0"

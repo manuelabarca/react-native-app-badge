@@ -1,4 +1,4 @@
-# react-native-shortcut-badge
+# react-native-app-badge
 
 Badge for the shortcut icon in your React Native App (Android & iOS).
 
@@ -13,8 +13,8 @@ ShortcutBadger is included in many notification libraries for React Native, rn-s
 ## Setup
 
 ```bash
-$ yarn add react-native-shortcut-badge
-$ react-native link react-native-shortcut-badge
+$ yarn add react-native-app-badge
+$ react-native link react-native-app-badge
 ```
 
 If you are using [Proguard](https://stuff.mit.edu/afs/sipb/project/android/sdk/android-sdk-linux/tools/proguard/docs/), add this to your android/app/proguard-rules.pro
@@ -28,7 +28,7 @@ See https://github.com/leolin310148/ShortcutBadger/issues/46
 ## Usage
 
 ```js
-import ShortcutBadge from 'react-native-shortcut-badge';
+import ShortcutBadge from 'react-native-app-badge';
 
 ShortcutBadge.getCount((count) => {
     ShortcutBadge.setCount(count + 1);
