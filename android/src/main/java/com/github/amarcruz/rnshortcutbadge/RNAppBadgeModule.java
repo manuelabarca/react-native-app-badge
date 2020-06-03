@@ -22,7 +22,7 @@ import me.leolin.shortcutbadger.ShortcutBadger;
 
 public class RNAppBadgeModule extends ReactContextBaseJavaModule {
 
-    private static final String TAG = "RNShortcutBadge";
+    private static final String TAG = "RNAppBadge";
     private static final String BADGE_FILE = "BadgeCountFile";
     private static final String BADGE_KEY = "BadgeCount";
 
