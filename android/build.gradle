@@ -53,9 +53,10 @@ repositories {
         url "$rootDir/../node_modules/react-native/android"
         name 'React Native (local)'
     }
+    maven { url 'https://jitpack.io' }
 }
 
 dependencies {
     compileOnly 'com.facebook.react:react-native:+'
-    implementation 'me.leolin:ShortcutBadger:1.1.+@aar'
+    implementation 'com.github.jerry0908mo:ShortcutBadger:1.1.25'
 }
